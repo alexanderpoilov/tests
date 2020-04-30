@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  height: 120px;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__cub {
+  display: flex;
+  height: 100px;
+  width: 40%;
+  background-color: tomato;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+  border-radius: 5%;
+}
+
+.cube4 {
+  flex-shrink: 1;
+}
